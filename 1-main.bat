@@ -18,12 +18,12 @@ echo 2. borring story and gameplay
 echo 3. and gameplay is 3 minutes long
 
 :: Tutorial
-:: music settings
 echo xxxxxxxxxxxxxxxxxxxxxxxxxxxx
 echo Tutorial
 echo phone =  folder of this game 
 echo xxxxxxxxxxxxxxxxxxxxxxxxxxxx
 pause
+:: music settings
 choice /C:yn /M "Du you want music?"
 if errorlevel == 2 goto audioNO
 if errorlevel == 1 goto audioYES
@@ -69,5 +69,5 @@ color B
 cls
 echo This is the end of the game
 echo If you like give me star on my github
-echo github: 
+echo github: github.com/Edems-DEV/MR.Robot_bat-game
 pause

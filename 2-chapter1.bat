@@ -5,6 +5,8 @@ cls
 ::
 echo Chapter 1
 echo First touch with Fsociety
+pause
+cls
 ::
 echo hello %username%.
 echo Go to you computer.
