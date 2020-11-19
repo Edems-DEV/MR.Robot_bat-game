@@ -11,9 +11,11 @@ echo XXXXXXXXXXX Welcome to MR.ROBOT lidl edition - bat file game   XXXXXXXXXXXX
 echo XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 pause
 ::warning
-echo 1. this "game" contains bad ennglish
-echo 2. Is borring
-echo 3. Have 3mins of gameplay :D
+echo     !!! warning !!!!
+echo this "game" contains
+echo 1. bad ennglish
+echo 2. borring story and gameplay
+echo 3. and gameplay is 3 minutes long
 
 :: Tutorial
 :: music settings
