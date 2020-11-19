@@ -3,7 +3,6 @@
 chcp 65001
 @title MR.ROBOT_game
 color B
-set /a percent=%random% %%100 +1
 cls
 
 ::Welcome
