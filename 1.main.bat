@@ -58,6 +58,7 @@ echo You're ready, but you just don't know it yet. :)
 pause
 
 :start
+::chapter 1
 ::start setup
 mode con: cols=78 lines=78
 color 2
@@ -88,7 +89,7 @@ echo "  \\############\\    "
 echo "   \      ____    \   "
 echo "    \_____\___\____\  "
 echo ________________________ 
-::docasne dodkud nebudu mít lepší nápad
+::temporarily until I have a better idea
 :legithAcKinG1
 echo Get inside the laptop.
 choice /C:BED /M "B- BruceForce E- use Exploit D- dump files"
