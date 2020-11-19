@@ -30,7 +30,7 @@ if errorlevel == 1 goto audioYES
 
 :audioYES
 echo audio ON
-echo To turn of music hardway use task manager and find
+echo To turn of music hardway use task manager and find "Micrsoft Windows Based Script Host"
 
 set "file=soudtrack.mp3"
 ( echo Set Sound = CreateObject("WMPlayer.OCX.7"^)
