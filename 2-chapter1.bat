@@ -65,9 +65,11 @@ if errorlevel == 1 goto twoBruceForce
     echo 556c74696d61746550617373776f72643132334e4f6f6e654b4e4f5768696d >> phone/data.txt
     echo Find that files and press any key
     pause
+    cls
     echo Decrypt data from data.txt which you can find in your mobile.
     echo Looks like it's encrypted in Hex Code
     pause
+    cls
     echo after decrypting try bruteforce attack again
     pause
     goto legithAcKinG1
@@ -87,6 +89,7 @@ if errorlevel == 2 goto legithAcKinG1
 if errorlevel == 1 goto twoBruceForce
     
 :done
+echo -----------------------------
 echo pc: Welcome back 
 echo Nice you get inside
 mkdir loot
@@ -116,3 +119,4 @@ pause
 echo So now you can join us.
 pause
 echo We will met here:  4d616465206279204544454d53
+pause

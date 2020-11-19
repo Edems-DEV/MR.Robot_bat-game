@@ -1,5 +1,6 @@
 @echo off
 ::
+cls
 echo Chapter 2
 echo Ransomware
 pause
@@ -50,7 +51,7 @@ if errorlevel == 2 goto threeExploit
 if errorlevel == 1 goto threeBruceForce
 
 :threeExploit
-    ::cls
+    cls
     :vetsi
     set /a percent=%random% %%100 +1
     :: 99 = 1%
@@ -97,7 +98,7 @@ if errorlevel == 2 goto legithAcKinG2
 if errorlevel == 1 goto threeBruceForce
 
 :threeSearch
-choice /C:sn /M "s- search for decrypt key n- do nothing a throw your computer into toilet "
+choice /C:sn /M "s- search for decrypt key || n- do nothing a throw your computer into toilet "
 if errorlevel == 2 goto failkonec
 if errorlevel == 1 goto Search
 
