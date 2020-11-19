@@ -3,6 +3,7 @@
 chcp 65001
 @title MR.ROBOT_game
 color B
+set /a percent=%random% %%100 +1
 cls
 
 ::Welcome
@@ -96,8 +97,21 @@ if errorlevel == 2 goto twoExploit
 if errorlevel == 1 goto twoBruceForce
 
 :twoExploit
+    :vetsi
+    set /a percent=%random% %%100 +1
+    :: 90 = 10%
+    if %percent% GEQ 90 (
+    echo Nice, You are pretty smart. 
+    echo You found exploit !!!!!!!
+    echo ----------------------------------
+    echo ----------------------------------
+    echo ----------------------------------
+    goto done
+    )else (
     echo You can't figure out any exploit.
+    echo ----------------------------------
     goto legithAcKinG1
+    )
 
 :twoDumpFiles
     echo You dump HARDdisk of computer.
