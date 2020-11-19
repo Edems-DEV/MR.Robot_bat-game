@@ -62,7 +62,10 @@ call 2-chapter1.bat
 ::chapter 2
 call 3-chapter2.bat
 
-
+:failkonec
+echo Why you always want to destroy this game?
+pause
+echo So you lost the game. So you owe me a star on github. :D
 ::konec
 :konec
 color B
