@@ -59,6 +59,8 @@ pause
 :start
 ::chapter 1
 call 2-chapter1.bat
+::chapter 2
+call 3-chapter2.bat
 
 
 ::konec

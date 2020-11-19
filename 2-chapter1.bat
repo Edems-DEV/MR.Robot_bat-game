@@ -1,9 +1,10 @@
-:start
-::chapter 1
-::start setup
+::setup
 mode con: cols=78 lines=78
 color 2
 cls
+::
+echo Chapter 1
+echo First touch with Fsociety
 ::
 echo hello %username%.
 echo Go to you computer.
