@@ -141,6 +141,7 @@ cd ..
 ::here put loading
 
 ::endofchapter2
+color 6
 echo Missin complate
 ::music
     ::TO DO - kill other music
@@ -153,3 +154,6 @@ set "file2=mision_complated.mp3"
   echo loop
   echo wscript.sleep (int(Sound.currentmedia.duration^)+1^)*1000) >sound.vbs
 start /min sound.vbs
+
+pause
+goto konec
